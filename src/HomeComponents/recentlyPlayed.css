@@ -1,0 +1,38 @@
+.recentlyPlayed-title{
+    color: white;
+    font-size: larger;
+    margin: 10px 0 10px 0px;
+}
+
+.recently-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.recently-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    height: 100%;
+    overflow: hidden; 
+}
+
+.recently-img{
+    width: 100%; 
+    height: 100%; 
+    border-radius: 7%;
+
+}
+
+.recently-content-btn{
+    background: #ab0620;
+    border: none;
+    width: 100%;
+    height: 25px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-align: left;
+}

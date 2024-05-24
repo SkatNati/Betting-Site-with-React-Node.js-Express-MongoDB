@@ -1,0 +1,47 @@
+
+
+
+.upper-support, .upper-social, .upper-icons{
+    display: flex;
+    gap: 4px;
+}
+
+.upper-support{
+    color: #fff;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.support-icon{
+    margin: -3px;
+    width: 30px;
+    height: 30px;
+}
+
+.upper-support span{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.upper-support:hover{
+    color: #ffba24;
+}
+
+.social-icon, .social-icon-telegram{
+    width: 20px;
+    height: 20px;
+    background: #b2b2b2;
+    color: #c8102e;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.social-icon-telegram{
+    border-radius: 50%;
+    background: #c8102e;
+    color: #b2b2b2;
+}
+
+.social-icon:hover, .social-icon-telegram:hover{
+    background: #fff;
+}

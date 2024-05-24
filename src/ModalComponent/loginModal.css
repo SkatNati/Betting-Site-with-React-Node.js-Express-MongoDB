@@ -1,0 +1,240 @@
+/* General Modal Styles */
+body.active-modal{
+    overflow-y: hidden;
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.modal-overlay h2{
+    color: #fff;
+    font-size: medium;
+    margin-bottom: 50px;
+}
+
+.modal-content {
+    background-color: #c8102e;
+    max-width: 500px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Align text to the center */
+}
+
+.modal-header {
+    position: relative;
+    padding: 0px; 
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: -29px;
+    right: -75px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: #fff;
+}
+.modal-content-form label, .modal-content-form-phone {
+    color: #fff;
+    text-align: left; /* Align text to the left */
+}
+
+.modal-content-form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.modal-content-form input, .modal-content-form-check{
+    margin-bottom: 20px;
+    width: 150%;
+}
+
+.modal-content-form-phone, .modal-reg-btn{
+    width: 99.6%;
+    margin-bottom: 20px;
+}
+
+.modal-reg-btn{
+    margin-top: 20px;
+    height: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.modal-reg-btn:hover{
+    background-color: #ccc;
+}
+
+.modal-content-form-check{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.modal-content-form-check label{
+    color: #fff;
+    font-size: smaller;
+    text-align: left;
+    padding: 0px 169px 1px 5px;
+}
+
+.modal-content-haveAcc{
+    color: #fff;
+    font-size: smaller;
+}
+
+.modal-login:hover, .modal-login-haveAcc:hover{
+    color: #ccc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-tempocode{
+    color: rgb(10, 187, 10);
+    margin-top: 60px;
+}
+
+/* General Modal Styles */
+.deposit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.deposit-modal-overlay h2{
+    color: #000;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.deposit-modal-content {
+    background-color: #fff;
+    max-width: 900px;
+    width: 700px;
+    height: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Align text to the center */
+}
+
+
+/* .deposit-modal-header {
+    position: relative;
+    padding: 0px; 
+} */
+
+/* .close-deposit-modal-btn {
+    position: absolute;
+    top: 21.25%;
+    right: 2.1%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: x-large;
+    color: #000;
+} */
+
+.deposit-modal-btns{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+.deposit-modal-btn{
+    background-color: #c7c0c2;
+    border: none;
+}
+
+.upper-pass, .upper-number{
+    display: flex;
+}
+
+.upper-number input, .upper-pass input, .upper-number-btn{
+    border: none;
+}
+
+.upper-number-btn{
+    background-color: #fff;
+}
+
+.upper-pass-icon, .upper-number-icon{
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    font-size: 5px;
+    padding: 2px;
+    border: none;
+}
+
+.btn-help{
+    color: white;
+    background: transparent;
+    border: solid 0.1px white;
+    border-radius: 2px;
+    height: 22px;
+    margin-top: 1px;
+}
+
+.btn {
+    background: #ffba24;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+    width: 80px;
+    height: 22px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.upper-btns-rgs{
+    margin-left: -40px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c8102e;
+    margin: 0 30px;
+    /* border-top: solid 0.5px rgb(241, 246, 79); */
+    padding: 5px 0px;
+}
+
+.upper-modall{
+    display: flex;
+    gap: 5px;
+}
+
+.upper-user{
+    display: flex;
+    gap: 4px;
+}
